@@ -9,7 +9,7 @@ use pocketmine\utils\TextFormat;
 class LangManager{
 
     public const LANG_VERSION = 1;
-    private const PREFIX = TextFormat::GRAY.'('.TextFormat::RED.'Chalix'.TextFormat::GRAY.') '.TextFormat::WHITE;
+    private const PREFIX = TextFormat::BALD. TextFormat::GRAY.'('.TextFormat::PINK.'Xeronix'.TextFormat::GRAY.') '.TextFormat::RESET;
 
     private $ak;
     private $defaults;
@@ -27,7 +27,7 @@ class LangManager{
             'cant-afford' => self::PREFIX.'You cannot afford kit: {%0}',
             'one-per-life' => self::PREFIX.'You can only get one kit per life',
             'cooldown1' => self::PREFIX.'Kit {%0} is in coolDown at the moment',
-            'cooldown2' => self::PREFIX.'You will be able to get it in {%0}',
+            'cooldown2' => self::'You will be able to get it in {%0}',
             'no-perm' => self::PREFIX.'You haven\'t the permission to use kit {%0}',
             'cooldown-format1' => self::PREFIX.'{%0} minutes',
             'cooldown-format2' => self::PREFIX.'{%0} hours and {%1} minutes',
