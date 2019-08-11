@@ -9,7 +9,7 @@ use pocketmine\utils\TextFormat;
 class LangManager{
 
     public const LANG_VERSION = 1;
-    private const PREFIX = TextFormat::GRAY.'('.TextFormat::PINK.'Xeronix'.TextFormat::GRAY.') '.TextFormat::RESET;
+    private const PREFIX = TextFormat::GRAY.'('.TextFormat::AQUA.'Galaxy'.TextFormat::PINK.'Network'.TextFormat::GRAY.') '.TextFormat::RESET;
 
     private $ak;
     private $defaults;
